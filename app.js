@@ -113,7 +113,7 @@ function shoot(e) {
 
       setTimeout(
         () => squares[currentLaserIndex].classList.remove("boom"),
-        3000
+        300
       );
       clearInterval(laserId);
 
@@ -126,7 +126,7 @@ function shoot(e) {
   }
   switch (e.key) {
     case "ArrowUp":
-      laserId = setInterval(moveLaser, 100);
+      laserId = setInterval(moveLaser, 200);
   }
 }
 
