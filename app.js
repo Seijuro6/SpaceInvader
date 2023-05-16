@@ -113,7 +113,7 @@ function shoot(e) {
 
       setTimeout(
         () => squares[currentLaserIndex].classList.remove("boom"),
-        300
+        3000
       );
       clearInterval(laserId);
 
