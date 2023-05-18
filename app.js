@@ -125,7 +125,7 @@ function shoot(e) {
     }
   }
   switch (e.key) {
-    case "ArrowUp":
+    case " ":
       laserId = setInterval(moveLaser, 200);
   }
 }
