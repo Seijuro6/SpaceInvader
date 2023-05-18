@@ -125,7 +125,7 @@ function shoot(e) {
     }
   }
   switch (e.key) {
-    case " ":
+    case " ": //disparo
       laserId = setInterval(moveLaser, 200);
   }
 }
